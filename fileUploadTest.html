@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <form onsubmit="uploadPrescription(event)" id="uploadFileTest">
+
+        <input type="file" onChange="hasFile(event)" id="files" accept="image/*" multiple/>
+        <input type="submit" value="upload" name="pimage[]">
+
+    </form>
+
+
+    <div id="gallery"></div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./fileUpload.js"></script>
+
+</html>
