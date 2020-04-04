@@ -19,6 +19,7 @@ function hasFile(e) {
 }
 function removeFile(obj){
     var file = $(obj).data("file");
+    var a = 0;
     for(var i=0;i<storedFiles.length;i++) {
             if(storedFiles[i].name === file) {
                 storedFiles.splice(i,1);
